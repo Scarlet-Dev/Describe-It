@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Describe_It.App</RootNamespace>
     <UseWPF>true</UseWPF>
+    <StartupObject>Describe_It.App.App</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

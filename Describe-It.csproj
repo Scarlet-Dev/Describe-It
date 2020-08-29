@@ -5,4 +5,8 @@
     <RootNamespace>Describe_It</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Describe-ItML.Model\Describe-ItML.Model.csproj" />
+  </ItemGroup>
+
 </Project>

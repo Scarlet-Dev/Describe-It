@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -12,8 +9,8 @@ namespace Describe_It.Pages
 {
     public class FileUploadModel : PageModel
     {
-        private IHostingEnvironment _environment;
-        public FileUploadModel(IHostingEnvironment environment)
+        private IWebHostEnvironment _environment;
+        public FileUploadModel(IWebHostEnvironment environment)
         {
             _environment = environment;
         }
